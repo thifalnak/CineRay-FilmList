@@ -6,10 +6,10 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class TVShow(
         var name: String = "",
-        var originalTitle: String = "",
+        var originalName: String = "",
         var originalLang: String = "",
         var userScore: Double = 0.0,
-        var overView: String = "",
+        var overview: String = "",
         var genre: String = "",
         var duration: Int = 0,
         var forAdult: Boolean = true,

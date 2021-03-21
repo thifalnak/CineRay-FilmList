@@ -9,7 +9,7 @@ data class Movie(
         var originalTitle: String = "",
         var originalLang: String = "",
         var userScore: Double = 0.0,
-        var overView: String = "",
+        var overview: String = "",
         var genre: String = "",
         var duration: Int = 0,
         var forAdult: Boolean = true,
